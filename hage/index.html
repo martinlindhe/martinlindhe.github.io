@@ -38,13 +38,13 @@
 
         <pre>{{ pager.unixCurrentTime * 1000 | date:'medium' }} to {{ (pager.unixCurrentTime + pager.increaseSeconds) * 1000 | date:'medium' }}</pre>
         <pre>{{ pager.increaseSeconds / 3600 }} hours</pre>
-        <!--
+        
         <pager total-items="pager.totalItems" ng-model="pager.currentPage"></pager>
         <br/>
 
         <div pagination total-items="pager.totalItems" ng-model="pager.currentPage"></div>
         <br/>
-        -->
+        
 
         <button class="btn btn-info" ng-click="pager.setPeriod(1); pager.setPage(-24)">21 maj</button>
 <!-- these because pagination dont show up due to ??? NO IDEA! -->
