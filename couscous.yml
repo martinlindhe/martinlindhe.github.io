@@ -1,5 +1,4 @@
-# Base URL of the published website
-baseUrl: http://martinlindhe.github.io/
+baseUrl: http://martinlindhe.github.io
 
 
 template:
@@ -9,6 +8,8 @@ template:
 title: martinlindhe.github.io
 subTitle: "&nbsp;"
 
+exclude:
+    - hage
 
 
 # The left menu bar
