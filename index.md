@@ -1,6 +1,0 @@
----
-currentMenu: home
----
-
-# Welcome
-world

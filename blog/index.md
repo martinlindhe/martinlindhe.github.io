@@ -1,6 +1,0 @@
----
-currentMenu: blog
----
-
-# Blog
-world

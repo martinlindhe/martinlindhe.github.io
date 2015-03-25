@@ -1,31 +1,27 @@
-# Base URL of the published website
-baseUrl: http://martinlindhe.github.io/
-
-
 template:
-    url: https://github.com/CouscousPHP/Template-Dark
+    directory: .
 
+github:
+    user: CouscousPHP
+    repo: Template-Dark
 
-title: martinlindhe.github.io
-subTitle: "&nbsp;"
-
-
+title: Couscous template
+subTitle: The dark template for Couscous.
 
 # The left menu bar
 menu:
     sections:
         main:
-            name: Nav
+            name: Main documentation
             items:
                 home:
                     text: Home page
-                    relativeUrl: index.html
-                blog:
-                    text: Blog
-                    relativeUrl: blog/index.html
+                    # You can use relative urls
+                    relativeUrl: doc/faq.html
+                foo:
+                    text: Another link
+                    # Or absolute urls
+                    absoluteUrl: https://example.com
         other:
             name: Other topics
             items:
-                github:
-                    text: "<i class=\"fa fa-github\"></i> Github"
-                    absoluteUrl: https://github.com/martinlindhe
