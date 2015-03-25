@@ -1,0 +1,6 @@
+---
+currentMenu: home
+---
+
+# Welcome
+world

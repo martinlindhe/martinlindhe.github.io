@@ -1,0 +1,31 @@
+# Base URL of the published website
+baseUrl: http://martinlindhe.github.io/
+
+
+template:
+    url: https://github.com/CouscousPHP/Template-Dark
+
+
+title: martinlindhe.github.io
+subTitle: "&nbsp;"
+
+
+
+# The left menu bar
+menu:
+    sections:
+        main:
+            name: Nav
+            items:
+                home:
+                    text: Home page
+                    relativeUrl: index.html
+                blog:
+                    text: Blog
+                    relativeUrl: blog/index.html
+        other:
+            name: Other topics
+            items:
+                github:
+                    text: "<i class=\"fa fa-github\"></i> Github"
+                    absoluteUrl: https://github.com/martinlindhe
